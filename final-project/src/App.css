@@ -1,0 +1,113 @@
+body {
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 50px;
+}
+
+h1 {
+  font-weight: 700;
+  color: #333;
+}
+
+.card {
+  border: none;
+  border-radius: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-weight: bold;
+  color: #222;
+}
+
+.card-text {
+  color: #555;
+}
+
+.btn {
+  border-radius: 30px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.01);
+}
+
+input.form-control, select.form-control, textarea.form-control {
+  border-radius: 10px;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+.modal-content {
+  border-radius: 1rem;
+}
+
+.modal-header {
+  background-color: #f7f7f7;
+  border-bottom: none;
+}
+
+.modal-footer {
+  background-color: #f7f7f7;
+  border-top: none;
+}
+
+/* Form alert */
+.alert {
+  border-radius: 20px;
+}
+
+/* Image preview styling */
+img.img-thumbnail {
+  border: 2px solid #ddd;
+}
+
+/* For search bar icon */
+.input-group-text {
+  background-color: #fff;
+  border-right: 0;
+}
+
+.input-group .form-control {
+  border-left: 0;
+}
+
+/* Add Book button */
+button[type="submit"].btn-primary {
+  background-color: #4e54c8;
+  border-color: #4e54c8;
+}
+
+button[type="submit"].btn-primary:hover {
+  background-color: #565cda;
+}
+
+/* Save changes button */
+.btn-success {
+  background-color: #00b894;
+  border-color: #00b894;
+}
+
+.btn-success:hover {
+  background-color: #00a383;
+}
+
+/* Cancel button */
+.btn-secondary {
+  background-color: #636e72;
+  border-color: #636e72;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6468;
+}
